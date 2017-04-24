@@ -16,7 +16,7 @@ header {
 nav {
 	height: 40px;
 	background-color: #f2f2f2;
-	position: fixed;
+	/*position: fixed;*/
 	width: 100%;
 	display: inline-block;
 	text-align: right;
@@ -45,21 +45,68 @@ a {
 	color: indigo;
 }
 
-.demo-form label {
-	margin-bottom: 5px;
-	}
-
-.demo-form input {
-	margin-top: 50px;
-	margin-right: 30px;
-}
-
-.demo-form input-image {
-}
-
-div {
+.container {
 	margin-top: 10px;
 	margin-left: 80px;
 	font-size: 18px;
-
 }
+
+.demo-form .search-label {
+	margin-bottom: 5px;
+	display: block;
+	padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.demo-form .search-input {
+	width: 400px;
+    height: 26px;
+    font-size: 18px;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+
+.demo-form .search-button {
+    border: 1px solid gray;
+    border-radius: 3px;
+    width: 28px;
+    vertical-align: top;
+}
+
+.pagination {
+	padding-top: 30px;
+    padding-bottom: 40px;
+    display: inline-block;
+    font-size: 0;
+}
+
+.pagination-button-one {
+	border: 1px solid grey;
+    display: inline-block;
+    font-size: 16px;
+    padding: 8px 15px;
+    border: 1px solid grey;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.pagination-button-two {
+	padding: 8px 15px;
+	border: 1px solid grey;
+    font-size: 16px;
+}
+
+.pagination-button-three {
+	display: inline-block;
+    font-size: 16px;
+    padding: 8px 15px;
+    border: 1px solid grey;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.listing {
+	padding-bottom: 10px;
+}
+
+

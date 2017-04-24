@@ -15,19 +15,23 @@
 		<li><a href="Post">Post</a></li>
 		<li><a href="Account">Account</a></li>
 	</nav>
-	<form class='demo-form' action="/some-server-endpoint" method='post'>
-		<label for="Search Jobs">Search Jobs</label>
-			<input type="text" name="search" placeholder="Search software jobs">
-			<input type="image" src="https://tf-curricula-prod.s3.amazonaws.com/curricula/5b3249003592fc371bac5c6254b50c9c/FEWD-001/v6/assets2/1.5.6_challenge_design_to_code/magnifying-glass.png">
-	</form>
-		<p>
-			<span></span>
-		</p>
-	</main>	
-		<div>June 22 <a href="TPM">Technical Project Manager</a> Midtown East</div>
-		<div>June 21 <a href="FD">Frontend Developer</a> SoHo</div>
-		<div>June 20 <a href="SPD/C">Senior Python Developer/CoFounder</a> Flatiron</div>
-	</main>
+	<div class="container">
+		<form class="demo-form" action="/some-server-endpoint" method="post">
+			<label class="search-label" for="Search Jobs">Search Jobs</label>
+			<input class="search-input" type="text" name="search" placeholder="Search software jobs">
+			<input class="search-button" type="image" src="https://tf-curricula-prod.s3.amazonaws.com/curricula/5b3249003592fc371bac5c6254b50c9c/FEWD-001/v6/assets2/1.5.6_challenge_design_to_code/magnifying-glass.png">
+		</form>
+		<div class="pagination">
+			<a href="#" class="pagination-button-one">&lt; Prev</a>
+			<span class="pagination-button-two">1 of 100</span>
+			<a href="#" class="pagination-button-three">Next &gt;</a>
+		</div>
+		<main>	
+			<div>June 22 <a href="TPM" class="listing">Technical Project Manager</a> Midtown East</div>
+			<div>June 21 <a href="FD" class="listing">Frontend Developer</a> SoHo</div>
+			<div>June 20 <a href="SPD/C" class="listing">Senior Python Developer/CoFounder</a> Flatiron</div>
+		</main>
+	</div>
 
 </body>
 </html>
