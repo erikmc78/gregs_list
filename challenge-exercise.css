@@ -105,8 +105,14 @@ a {
     border-top-right-radius: 3px;
 }
 
-.listing {
-	padding-bottom: 10px;
+.listing-one {
+	margin-bottom: 10px;
 }
 
+.listing-two {
+	margin-bottom: 10px;
+}
 
+.listing-three {
+	margin-bottom: 10px;
+}
